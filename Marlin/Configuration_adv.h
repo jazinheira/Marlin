@@ -2402,9 +2402,9 @@
     //#define Z4_INTERPOLATE true
   #endif
 
-  #if AXIS_IS_TMC(E0)
-    #define E0_CURRENT      800
-    #define E0_MICROSTEPS    16
+  #if AXIS_IS_TMC(E0) 
+    #define E0_CURRENT      450
+    #define E0_MICROSTEPS    4
     #define E0_RSENSE         0.11
     #define E0_CHAIN_POS     -1
     //#define E0_INTERPOLATE true
